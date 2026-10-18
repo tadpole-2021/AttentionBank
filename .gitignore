@@ -1,0 +1,44 @@
+# Local build state and generated outputs
+.gradle/
+.kotlin/
+**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.apks
+*.hprof
+
+# Local SDK paths, tools, and IDE state
+local.properties
+.tools/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Signing credentials and local environment files
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+*.env
+
+# Diagnostic artifacts and local databases
+.dbg/
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep the Gradle Wrapper binary in the repository.
+!gradle/wrapper/gradle-wrapper.jar

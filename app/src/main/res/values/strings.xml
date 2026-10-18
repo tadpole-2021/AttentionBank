@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">注意力银行</string>
+    <string name="accessibility_service_name">注意力银行拦截服务</string>
+    <string name="accessibility_service_description">读取应用窗口所属包名以识别前台应用，并在余额耗尽时显示拦截页。不读取或保存页面文字、输入内容。</string>
+    <string name="accessibility_service_summary">识别前台应用，余额为 0 时显示拦截页，可主动返回首页或桌面。</string>
+</resources>
